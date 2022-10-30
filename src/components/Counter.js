@@ -1,6 +1,6 @@
 import classes from './Counter.module.css';
 import { useSelector ,useDispatch} from 'react-redux';
-import { counterActions } from './store/index';
+import { counterActions } from './store/count';
 const Counter = () => {
 
   const count=useSelector(state=>state.counter.count)  // useSelector is hook used to select state in the redux by taking an parameter (here we take state)
